@@ -17,7 +17,6 @@ transformers
 
 FOLDERS AND FILES ATTACHED:
 	1. Q1.py
-	2. Q2.ipynb
 	3. 	a. Q3a.ipynb
 		b. Q3b.ipynb
 		c. Q3c.ipynb
@@ -31,20 +30,6 @@ DESCRIPTION:
 		c. After executing the Answer_1.py, it returns 40 .csv files with columns : Word1, Word2, similarity_score, groud_truth_similarity and label.
 		d. The files will be saved in the root folder.
 		e. Associated data are to be kept in root folder, named hi->{50, 100}(two different folders)->{cbow, fasttext, glove, sg}->{model files} 
-	
-	2. Answer_2.ipynb
-		I have taken reference from
-"https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb". I have preprossed data on my own, and load the bert model, it's associated parameters and found the presion using the methods as reference. It was very slow in my system, so I ran the code in Kaggle using GPU as my system doesn't have GPU.
-
-Results I got:
-		precision   recall   f1-score   support
-
-        CORP       0.80      0.14      0.24       646
-          CW       0.67      0.03      0.06       517
-         GRP       0.80      0.43      0.56      1127
-         LOC       0.47      0.19      0.27       479
-         PER       0.41      0.19      0.26       664
-        PROD       0.00      0.00      0.00       594
 
 	
 	3. Answer_3.ipynb
